@@ -31,7 +31,7 @@ for dish in deserts_list:
 print('\n')
 print("""Drinks
 ----------""")
-for dish in entrees_list:
+for dish in drink_list:
     print(dish)
 
 print('***********************************')
@@ -41,7 +41,7 @@ print('***********************************')
 items = {}
 
 while True:
-    order = input('> ')
+    order = input('> ').capitalize()
     order_plural = 'orders'
     order_singular = 'order'
     have_plural = 'have'
